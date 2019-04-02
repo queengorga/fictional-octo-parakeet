@@ -16,7 +16,12 @@
     padding: 10px;
 }
 
-
+.logo h1 {
+    font-family: 'Champion';
+    color: darkred;
+    font-size: 50px;
+    text-align: center;
+}
 
 .logo img {
     height: 150px;
@@ -35,7 +40,6 @@
 .navbar {
     height: 5.5vh;
     width: 100%;
-    background-color: lightblue;
 }
 
 .navbar ul {
@@ -45,10 +49,9 @@
 .navbar li {
     display: inline;
     font-family: 'Champion';
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bolder;
-    color: teal;
-    text-shadow: 1px darkslategray;
+    color: darkred;
     padding: 30px;
     cursor: pointer;
 }
