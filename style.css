@@ -82,12 +82,17 @@
 /*Navigation Bar*/
 
 .navbar {
-    height: 5vh;
+    height: 0vh;  
     width: 100%;    
 }
 
 .navbar ul {
     text-align: center;
+    transform: translate(0%, -1075%);
+    -webkit-transform: translate(0%, -1075%);
+    -moz-transform: translate(0%, -1075%);
+    -ms-transform: translate(0%, -1075%);
+    -o-transform: translate(0%, -1075%);
 }
 
 .navbar li {
@@ -98,11 +103,6 @@
     color: white;
     padding: 10px;
     cursor: pointer;
-    transform: translate(-50%,-550%);
-    -webkit-transform: translate(-50%,-550%);
-    -moz-transform: translate(-50%,-550%);
-    -ms-transform: translate(-50%,-550%);
-    -o-transform: translate(-50%,-550%);
 }
 
 .navbar a,
@@ -112,7 +112,7 @@
 }
 
 .navbar a:hover {
-    color: ivory;
+    color: yellow;
     font-weight: lighter; 
     text-shadow: 2px 2px 2px darkred;
     transition: .25s ease-in-out;
