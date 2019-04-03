@@ -121,3 +121,13 @@
     -ms-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
 }
+
+.navbar img {
+    transform: translate(140%,-55%);
+    -webkit-transform: translate(140%,-55%);
+    -moz-transform: translate(140%,-55%);
+    -ms-transform: translate(140%,-55%);
+    -o-transform: translate(140%,-55%);
+    height: 900px;
+    width: 625px;
+}
