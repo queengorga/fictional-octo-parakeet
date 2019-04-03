@@ -11,18 +11,22 @@
 /*Logo*/
 
 .logo {
-    margin-top: 50px;
-    background-color: white;
-    padding: 10px;
+    background-color: darkred;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/logobg.jpg);
+    background-size: 500px 800px; 
+    background-position: center;
+    background-repeat: no-repeat;   
 }
 
 .logo h1 {
     font-family: 'Champion';
-    color: darkred;
-    font-size: 50px;
+    color: ivory;
+    font-size: 55px;
     text-align: center;
     font-weight: lighter;
-    margin-top: -45px; 
+    margin-top: -50px; 
 }
 
 .logo img {
@@ -40,8 +44,10 @@
 /*Navigation Bar*/
 
 .navbar {
-    height: 5.5vh;
-    width: 100%;
+    height: 5vh;
+    width: 100%; 
+    margin-top: -100px;   
+    background-image: url(img/logobg.jpg);
 }
 
 .navbar ul {
@@ -52,9 +58,9 @@
     display: inline;
     font-family: 'Champion';
     font-size: 40px;
-    font-weight: bolder;
-    color: darkred;
-    padding: 30px;
+    font-weight: lighter;
+    color: ivory;
+    padding: 10px;
     cursor: pointer;
 }
 
