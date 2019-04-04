@@ -11,7 +11,7 @@
 /*Logo*/
 
 .logo {
-    background-color: darkred;
+    background-color: #8d0800;
     height: 100vh;
     width: 100%;
     background-image: url(img/logobg.jpg);
@@ -88,21 +88,21 @@
 
 .navbar ul {
     text-align: center;
-    transform: translate(0%, -1075%);
-    -webkit-transform: translate(0%, -1075%);
-    -moz-transform: translate(0%, -1075%);
-    -ms-transform: translate(0%, -1075%);
-    -o-transform: translate(0%, -1075%);
+    transform: translate(0%, -1200%);
+    -webkit-transform: translate(0%, -1200%);
+    -moz-transform: translate(0%, -1200%);
+    -ms-transform: translate(0%, -1200%);
+    -o-transform: translate(0%, -1200%);
 }
 
 .navbar li {
     display: inline;
-    font-family: 'Champion';
+    font-family: 'Pathway Gothic One', sans-serif;
     font-size: 40px;
-    font-weight: lighter;
     color: white;
     padding: 10px;
     cursor: pointer;
+    text-shadow: 1px ivory;
 }
 
 .navbar a,
@@ -113,8 +113,10 @@
 
 .navbar a:hover {
     color: yellow;
+    background-color: green;
     font-weight: lighter; 
-    text-shadow: 2px 2px 2px darkred;
+    padding: 5px;
+    margin-top: -5px;
     transition: .25s ease-in-out;
     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
@@ -135,5 +137,11 @@
 /*Trailer Section*/
 .trailer {
     height: 100vh;
-    background-color: darkred; 
+    background-color: #fff0bd; 
+}
+
+.trailer-title h1 {
+    font-family: 'Champion';
+    color: #0a3a04; 
+
 }
