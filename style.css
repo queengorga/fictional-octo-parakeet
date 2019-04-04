@@ -131,3 +131,9 @@
     height: 900px;
     width: 625px;
 }
+
+/*Trailer Section*/
+.trailer {
+    height: 100vh;
+    background-color: darkred; 
+}
