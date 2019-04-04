@@ -114,14 +114,19 @@
 .navbar a:hover {
     color: yellow;
     background-color: green;
-    font-weight: lighter; 
-    padding: 5px;
+    font-weight: lighter;
+    padding: 1px 8px;
     margin-top: -5px;
     transition: .25s ease-in-out;
     -webkit-transition: .25s ease-in-out;
     -moz-transition: .25s ease-in-out;
     -ms-transition: .25s ease-in-out;
     -o-transition: .25s ease-in-out;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .navbar img {
