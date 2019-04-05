@@ -141,7 +141,7 @@
 
 /*Trailer Section*/
 .trailer {
-    height: 100vh;
+    height: 175vh;
     background-color: #fff0bd; 
 }
 
@@ -149,5 +149,28 @@
     font-family: 'Champion';
     font-size: 60px; 
     color: #0a3a04; 
-    padding: 75px 400px; 
+    padding: 60px 435px 90px; 
+}
+
+.trailer-title img {
+    height: 700px;
+    width: 1500px;
+    transform: translate(-16%,-50%);
+    -webkit-transform: translate(-16%,-50%);
+    -moz-transform: translate(-16%,-50%);
+    -ms-transform: translate(-16%,-50%);
+    -o-transform: translate(-16%,-50%);
+}
+
+iframe {
+    transform: translate(67%,53%);
+    -webkit-transform: translate(67%,53%);
+    -moz-transform: translate(67%,53%);
+    -ms-transform: translate(67%,53%);
+    -o-transform: translate(67%,53%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
