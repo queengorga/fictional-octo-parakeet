@@ -130,12 +130,12 @@
 }
 
 .navbar img {
-    transform: translate(145%, -80%);
-    -webkit-transform: translate(145%, -80%);
-    -moz-transform: translate(145%, -80%);
-    -ms-transform: translate(145%, -80%);
-    -o-transform: translate(145%, -80%);
-    height: 675px;
+    transform: translate(145%, -70%);
+    -webkit-transform: translate(145%, -70%);
+    -moz-transform: translate(145%, -70%);
+    -ms-transform: translate(145%, -70%);
+    -o-transform: translate(145%, -70%);
+    height: 750px;
     width: 600px;
 }
 
