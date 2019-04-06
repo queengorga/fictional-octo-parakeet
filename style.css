@@ -88,11 +88,11 @@
 
 .navbar ul {
     text-align: center;
-    transform: translate(0%, -1200%);
-    -webkit-transform: translate(0%, -1200%);
-    -moz-transform: translate(0%, -1200%);
-    -ms-transform: translate(0%, -1200%);
-    -o-transform: translate(0%, -1200%);
+    transform: translate(0%, -1225%);
+    -webkit-transform: translate(0%, -1225%);
+    -moz-transform: translate(0%, -1225%);
+    -ms-transform: translate(0%, -1225%);
+    -o-transform: translate(0%, -1225%);
 }
 
 .navbar li {
@@ -113,7 +113,7 @@
 
 .navbar a:hover {
     color: yellow;
-    background-color: green;
+    background-color: darkgreen;
     font-weight: lighter;
     padding: 1px 8px;
     margin-top: -5px;
