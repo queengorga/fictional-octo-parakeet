@@ -15,7 +15,7 @@
     height: 100vh;
     width: 100%;
     background-image: url(img/logobg.jpg);
-    background-size: contain; 
+    background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@
     font-size: 85px;
     font-weight: lighter;
     letter-spacing: 2px;
-    margin-top:-118px;
+    margin-top: -118px;
     margin-left: 730px;
 }
 
@@ -82,8 +82,8 @@
 /*Navigation Bar*/
 
 .navbar {
-    height: 0vh;  
-    width: 100%;    
+    height: 0vh;
+    width: 100%;
 }
 
 .navbar ul {
@@ -130,11 +130,11 @@
 }
 
 .navbar img {
-    transform: translate(145%,-80%);
-    -webkit-transform: translate(145%,-80%);
-    -moz-transform: translate(145%,-80%);
-    -ms-transform: translate(145%,-80%);
-    -o-transform: translate(145%,-80%);
+    transform: translate(145%, -80%);
+    -webkit-transform: translate(145%, -80%);
+    -moz-transform: translate(145%, -80%);
+    -ms-transform: translate(145%, -80%);
+    -o-transform: translate(145%, -80%);
     height: 675px;
     width: 600px;
 }
@@ -142,32 +142,35 @@
 /*Trailer Section*/
 .trailer {
     height: 175vh;
-    background-color: #fff0bd; 
+    background-color: #fff0bd;
 }
 
 .trailer-title h1 {
     font-family: 'Champion';
-    font-size: 60px; 
-    color: #0a3a04; 
-    padding: 60px 435px 90px; 
+    font-size: 65px;
+    color: #0a3a04;
+    margin: -355px 350px 10px;
 }
 
-.trailer-title img {
+#trailer-banner {
+    height: 350px;
+    width: 650px;
+    padding: 50px 150px;
+}
+
+#trailer-frame {
     height: 700px;
     width: 1500px;
-    transform: translate(-16%,-50%);
-    -webkit-transform: translate(-16%,-50%);
-    -moz-transform: translate(-16%,-50%);
-    -ms-transform: translate(-16%,-50%);
-    -o-transform: translate(-16%,-50%);
+    margin-left: -275px;
+    margin-top: -185px;
 }
 
 iframe {
-    transform: translate(67%,53%);
-    -webkit-transform: translate(67%,53%);
-    -moz-transform: translate(67%,53%);
-    -ms-transform: translate(67%,53%);
-    -o-transform: translate(67%,53%);
+    transform: translate(57%, 108%);
+    -webkit-transform: translate(57%, 108%);
+    -moz-transform: translate(57%, 108%);
+    -ms-transform: translate(57%, 108%);
+    -o-transform: translate(57%, 108%);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
