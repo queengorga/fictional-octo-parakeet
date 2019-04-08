@@ -161,16 +161,29 @@
 #trailer-frame {
     height: 700px;
     width: 1500px;
-    margin-left: -275px;
-    margin-top: -185px;
+    margin-left: -325px;
+    margin-top: -225px;
 }
 
-iframe {
-    transform: translate(57%, 108%);
-    -webkit-transform: translate(57%, 108%);
-    -moz-transform: translate(57%, 108%);
-    -ms-transform: translate(57%, 108%);
-    -o-transform: translate(57%, 108%);
+#french {
+    transform: translate(47%, 95%);
+    -webkit-transform: translate(47%, 95%);
+    -moz-transform: translate(47%, 95%);
+    -ms-transform: translate(47%, 95%);
+    -o-transform: translate(47%, 95%);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.synopsis {
+    transform: translate(47%, -195%);
+    -webkit-transform: translate(47%, -195%);
+    -moz-transform: translate(47%, -195%);
+    -ms-transform: translate(47%, -195%);
+    -o-transform: translate(47%, -195%);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
