@@ -171,11 +171,6 @@
     -moz-transform: translate(47%, 95%);
     -ms-transform: translate(47%, 95%);
     -o-transform: translate(47%, 95%);
-    border-radius: 5px;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
 }
 
 .synopsis {
