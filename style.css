@@ -172,21 +172,25 @@
     -ms-transform: translate(47%, 95%);
     -o-transform: translate(47%, 95%);
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
 }
 
 .synopsis {
-    transform: translate(47%, -195%);
-    -webkit-transform: translate(47%, -195%);
-    -moz-transform: translate(47%, -195%);
-    -ms-transform: translate(47%, -195%);
-    -o-transform: translate(47%, -195%);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    margin-left: 700px;
+    margin-top: -600px;
+}
+
+.synopsis h1 {
+    font-family: 'Champion';
+}
+
+.synopsis p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 22px;
+    text-align: center;  
+    padding-top: 30px;
+    padding-left: 20px;
 }
