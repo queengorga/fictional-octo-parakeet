@@ -210,7 +210,7 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 290%;
+    top: 305%;
     width: 25px;
     padding: 16px;
     margin-left: 40px;
@@ -248,9 +248,9 @@
 }
 
 .text-block iframe {
-    transform: translate(30%,-5%);
-    -webkit-transform: translate(30%,-5%);
-    -moz-transform: translate(30%,-5%);
-    -ms-transform: translate(30%,-5%);
-    -o-transform: translate(30%,-5%);
+    transform: translate(10%,-5%);
+    -webkit-transform: translate(10%,-5%);
+    -moz-transform: translate(10%,-5%);
+    -ms-transform: translate(10%,-5%);
+    -o-transform: translate(10%,-5%);
 }
