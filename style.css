@@ -254,3 +254,9 @@
     -ms-transform: translate(10%,-5%);
     -o-transform: translate(10%,-5%);
 }
+
+.text-block img {
+    height: 150px;
+    width: 200px;
+    display: inline;
+}
