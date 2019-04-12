@@ -193,7 +193,7 @@
 /*Featured Clips Section*/
 
 .feature-slider {
-    height: 100vh;
+    height: 200vh;
     width: 100%;
     background-color: #d1cc59;
 }
@@ -245,4 +245,12 @@
 .next:hover {
     background-color: white;
     color: darkred;
+}
+
+.text-block iframe {
+    transform: translate(30%,-5%);
+    -webkit-transform: translate(30%,-5%);
+    -moz-transform: translate(30%,-5%);
+    -ms-transform: translate(30%,-5%);
+    -o-transform: translate(30%,-5%);
 }
