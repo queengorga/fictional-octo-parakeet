@@ -193,7 +193,7 @@
 /*Featured Clips Section*/
 
 .feature-slider {
-    height: 200vh;
+    height: 150vh;
     width: 100%;
     background-color: #d1cc59;
 }
@@ -249,10 +249,10 @@
 
 .text-block iframe {
     transform: translate(10%,5%);
-    -webkit-transform:;
-    -moz-transform:;
-    -ms-transform:;
-    -o-transform:;
+    -webkit-transform: translate(10%,5%);
+    -moz-transform: translate(10%,5%);
+    -ms-transform: translate(10%,5%);
+    -o-transform: translate(10%,5%);
 }
 
 .text-block img {
@@ -274,6 +274,6 @@
 .thumbnail p {
     text-align: center; 
     font-family: 'Pathway Gothic One', sans-serif; 
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 10px;
 }
