@@ -141,7 +141,7 @@
 
 /*Trailer Section*/
 .trailer {
-    height: 145vh;
+    height: 150vh;
     background-color: #fff0bd;
 }
 
@@ -161,16 +161,16 @@
 #trailer-frame {
     height: 700px;
     width: 1500px;
-    margin-left: -325px;
-    margin-top: -225px;
+    margin-left: -300px;
+    margin-top: -175px;
 }
 
 #french {
-    transform: translate(47%, 95%);
-    -webkit-transform: translate(47%, 95%);
-    -moz-transform: translate(47%, 95%);
-    -ms-transform: translate(47%, 95%);
-    -o-transform: translate(47%, 95%);
+    transform: translate(52%, 110%);
+    -webkit-transform: translate(52%, 110%);
+    -moz-transform: translate(52%, 110%);
+    -ms-transform: translate(52%, 110%);
+    -o-transform: translate(52%, 110%);
 }
 
 .synopsis {
@@ -210,10 +210,10 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 305%;
+    top: 310%;
     width: 25px;
     padding: 16px;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 40px;
     color: white;
     text-align: center;
@@ -248,15 +248,32 @@
 }
 
 .text-block iframe {
-    transform: translate(10%,-5%);
-    -webkit-transform: translate(10%,-5%);
-    -moz-transform: translate(10%,-5%);
-    -ms-transform: translate(10%,-5%);
-    -o-transform: translate(10%,-5%);
+    transform: translate(10%,5%);
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 .text-block img {
-    height: 150px;
-    width: 200px;
+    height: 155px;
+    width: 195px;
     display: inline;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin: 50px 6px;
+    transform: translate(62%,5%);
+    -webkit-transform: translate(62%,5%);
+    -moz-transform: translate(62%,5%);
+    -ms-transform: translate(62%,5%);
+    -o-transform: translate(62%,5%);
+}
+
+.thumbnail p {
+    text-align: center; 
+    font-family: 'Pathway Gothic One', sans-serif; 
+    font-size: 25px;
+    margin-top: 10px;
 }
