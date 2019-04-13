@@ -130,18 +130,18 @@
 }
 
 .navbar img {
-    transform: translate(145%, -70%);
-    -webkit-transform: translate(145%, -70%);
-    -moz-transform: translate(145%, -70%);
-    -ms-transform: translate(145%, -70%);
-    -o-transform: translate(145%, -70%);
-    height: 750px;
-    width: 600px;
+    transform: translate(143%, -60%);
+    -webkit-transform: translate(143%, -60%);
+    -moz-transform: translate(143%, -60%);
+    -ms-transform: translate(143%, -60%);
+    -o-transform: translate(143%, -60%);
+    height: 900px;
+    width: 625px;
 }
 
 /*Trailer Section*/
 .trailer {
-    height: 150vh;
+    height: 275vh;
     background-color: #fff0bd;
 }
 
@@ -159,23 +159,23 @@
 }
 
 #trailer-frame {
-    height: 700px;
+    height: 850px;
     width: 1500px;
     margin-left: -300px;
-    margin-top: -175px;
+    margin-top: -250px;
 }
 
 #french {
-    transform: translate(52%, 110%);
-    -webkit-transform: translate(52%, 110%);
-    -moz-transform: translate(52%, 110%);
-    -ms-transform: translate(52%, 110%);
-    -o-transform: translate(52%, 110%);
+    transform: translate(34%, 100%);
+    -webkit-transform: translate(34%, 100%);
+    -moz-transform: translate(34%, 100%);
+    -ms-transform: translate(34%, 100%);
+    -o-transform: translate(34%, 100%);
 }
 
 .synopsis {
-    margin-left: 700px;
-    margin-top: -600px;
+    margin-left: 650px;
+    margin-top: 350px;
 }
 
 .synopsis h1 {
@@ -185,9 +185,10 @@
 .synopsis p {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 22px;
+    line-height: 30px;
     text-align: center;  
-    padding-top: 30px;
-    padding-left: 20px;
+    padding-top: 20px;
+    padding-left: 40px;
 }
 
 /*Featured Clips Section*/
@@ -210,10 +211,10 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 310%;
+    top: 435%;
     width: 25px;
     padding: 16px;
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 40px;
     color: white;
     text-align: center;
