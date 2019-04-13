@@ -255,10 +255,9 @@
     -o-transform: translate(10%,5%);
 }
 
-.text-block img {
+.thumbnail img {
     height: 155px;
     width: 195px;
-    display: inline;
 }
 
 .thumbnail {
