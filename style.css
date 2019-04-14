@@ -141,7 +141,7 @@
 
 /*Trailer Section*/
 .trailer {
-    height: 275vh;
+    height: 175vh;
     background-color: #fff0bd;
 }
 
@@ -173,21 +173,47 @@
     -o-transform: translate(34%, 100%);
 }
 
+.pics-tile {
+    display: inline-block;
+    transform: translate(2%,-215%);
+    -webkit-transform: translate(2%,-215%);
+    -moz-transform: translate(2%,-215%);
+    -ms-transform: translate(2%,-215%);
+    -o-transform: translate(2%,-215%);
+}
+
+.trailer-pics img {
+    height: 325px;
+    width: 335px;
+    margin-top: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-left: 1000px;
+}
+
+/*Synopsis Section*/
 .synopsis {
-    margin-left: 650px;
-    margin-top: 350px;
+    height: 115vh;
+    width: 100%;
 }
 
-.synopsis h1 {
+.synopsis-container h1 {
     font-family: 'Champion';
+    font-size: 50px;
+    color: #8D0800;
+    text-align: center;
+    padding-top: 40px;
 }
 
-.synopsis p {
+.synopsis-container p {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     line-height: 30px;
     text-align: center;  
-    padding-top: 20px;
+    padding-top: 50px;
     padding-left: 40px;
 }
 
