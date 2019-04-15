@@ -173,26 +173,19 @@
     -o-transform: translate(34%, 100%);
 }
 
-.pics-tile {
-    display: inline-block;
-    transform: translate(2%,-215%);
-    -webkit-transform: translate(2%,-215%);
-    -moz-transform: translate(2%,-215%);
-    -ms-transform: translate(2%,-215%);
-    -o-transform: translate(2%,-215%);
+.trailer-text p {
+    font-family: 'Champion';
+    font-size: 80px;
+    float: right;
+    text-align: center;
+    color: #8D0800;
+    transform: translate(-15%,-255%);
+    -webkit-transform: translate(-15%,-255%);
+    -moz-transform: translate(-15%,-255%);
+    -ms-transform: translate(-15%,-255%);
+    -o-transform: translate(-15%,-255%);
 }
 
-.trailer-pics img {
-    height: 325px;
-    width: 335px;
-    margin-top: 20px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    margin-left: 1000px;
-}
 
 /*Synopsis Section*/
 .synopsis {
@@ -200,21 +193,24 @@
     width: 100%;
 }
 
+.synopsis-container {
+    float: right;
+    margin-left: 275px;
+    margin-top: -60px;
+}
+
 .synopsis-container h1 {
     font-family: 'Champion';
-    font-size: 50px;
+    font-size: 60px;
     color: #8D0800;
-    text-align: center;
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .synopsis-container p {
     font-family: 'Pathway Gothic One', sans-serif;
     font-size: 25px;
     line-height: 30px;
-    text-align: center;  
-    padding-top: 50px;
-    padding-left: 40px;
+    padding-top: 20px;
 }
 
 /*Featured Clips Section*/
