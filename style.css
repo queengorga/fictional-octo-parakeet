@@ -186,15 +186,43 @@
     -o-transform: translate(-15%,-300%);
 }
 
-.trailer-text img {
+#open {
+    height: 50px;
+    width: 50px;
+    transform: translate(1700%, -1790%);
+    -webkit-transform: translate(1700%, -1790%);
+    -moz-transform: translate(1700%, -1790%);
+    -ms-transform: translate(1700%, -1790%);
+    -o-transform: translate(1700%, -1790%);
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+}
+
+#close {
+    height: 50px;
+    width: 50px;
+    transform: translate(2700%, -1500%);
+    -webkit-transform: translate(2700%, -1500%);
+    -moz-transform: translate(2700%, -1500%);
+    -ms-transform: translate(2700%, -1500%);
+    -o-transform: translate(2700%, -1500%);
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+}
+
+.creme {
     height: 300px;
     width: 350px;
     border-radius: 50%;
-    transform: translate(275%, -125%);
-    -webkit-transform: translate(275%, -125%);
-    -moz-transform: translate(275%, -125%);
-    -ms-transform: translate(275%, -125%);
-    -o-transform: translate(275%, -125%);
+    transform: translate(250%, -125%);
+    -webkit-transform: translate(250%, -125%);
+    -moz-transform: translate(250%, -125%);
+    -ms-transform: translate(250%, -125%);
+    -o-transform: translate(250%, -125%);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
