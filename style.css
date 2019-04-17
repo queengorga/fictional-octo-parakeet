@@ -341,3 +341,11 @@
     font-size: 22px;
     margin-top: 10px;
 }
+
+/*Cast Section*/
+
+.cast {
+    height: 80vh;
+    width: 100%;
+    background-color: lightyellow;
+}
