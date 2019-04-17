@@ -194,10 +194,6 @@
     -moz-transform: translate(1700%, -1790%);
     -ms-transform: translate(1700%, -1790%);
     -o-transform: translate(1700%, -1790%);
-    -webkit-border-radius: none;
-    -moz-border-radius: none;
-    -ms-border-radius: none;
-    -o-border-radius: none;
 }
 
 #close {
@@ -208,10 +204,6 @@
     -moz-transform: translate(2700%, -1500%);
     -ms-transform: translate(2700%, -1500%);
     -o-transform: translate(2700%, -1500%);
-    -webkit-border-radius: none;
-    -moz-border-radius: none;
-    -ms-border-radius: none;
-    -o-border-radius: none;
 }
 
 .creme {
