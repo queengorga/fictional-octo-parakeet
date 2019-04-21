@@ -343,18 +343,18 @@
 }
 
 .characters img {
-    height: auto;
-    width: auto;
+    height: 800px;
+    width: 800px;
 }
 
 @keyframes crossfade {
     0% {
-        background: url(img/);
+        background: url(img/theletter.jpg);
         background-size: cover;
     }
 
     20% {
-        background: url(img/);
+        background: url(img/nino.jpg);
         background-size: cover;
     }
 
