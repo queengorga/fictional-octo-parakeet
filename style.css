@@ -283,10 +283,10 @@
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    -webkit-transition:;
-    -moz-transition:;
-    -ms-transition:;
-    -o-transition:;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
 }
 
 .next {
@@ -404,7 +404,7 @@
     background: grey;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
-    -webkit-animation:;
+    -webkit-animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
     border-radius: 4%;
     -webkit-border-radius: 4%;
     -moz-border-radius: 4%;
