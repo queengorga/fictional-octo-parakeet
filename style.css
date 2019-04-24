@@ -362,33 +362,48 @@
         background-size: cover;
     }
 
-    20% {
+    5% {
         background: url(img/nino.jpg);
         background-size: cover;
     } 
 
-    40% {
+    10% {
         background: url(img/raymond.jpg);
         background-size: cover;
     }
 
-    60% {
+    15% {
         background: url(img/lucien.jpg);
         background-size: cover;
     }
 
-    80% {
+    20% {
         background: url(img/joseph.jpg);
         background-size: cover;
     }
 
-    90% {
+    25% {
         background: url(img/amandine.jpg);
         background-size: cover;
     }
 
-    100% {
-        background: url(img/);
+    30% {
+        background: url(img/georgette.jpg);
+        background-size: cover;
+    }
+
+    35% {
+        background: url(img/georgette.jpg);
+        background-size: cover;
+    }
+
+    40% {
+        background: url(img/georgette.jpg);
+        background-size: cover;
+    }
+
+    45% {
+        background: url(img/georgette.jpg);
         background-size: cover;
     }
 }
@@ -403,8 +418,8 @@
     max-height: 800px;
     background: grey;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
-    -webkit-animation: crossfade 30s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    animation: crossfade 60s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    -webkit-animation: crossfade 60s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
     border-radius: 4%;
     -webkit-border-radius: 4%;
     -moz-border-radius: 4%;
