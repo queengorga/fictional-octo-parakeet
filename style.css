@@ -393,16 +393,21 @@
     }
 
     35% {
-        background: url(img/georgette.jpg);
+        background: url(img/gina.jpg);
         background-size: cover;
     }
 
     40% {
-        background: url(img/georgette.jpg);
+        background: url(img/hipolito.jpg);
         background-size: cover;
     }
 
     45% {
+        background: url(img/georgette.jpg);
+        background-size: cover;
+    }
+
+    50% {
         background: url(img/georgette.jpg);
         background-size: cover;
     }
