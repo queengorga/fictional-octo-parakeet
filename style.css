@@ -363,12 +363,12 @@
     }
 
     5% {
-        background: url(img/nino.jpg);
+        background: url(img/theletter.jpg);
         background-size: cover;
     } 
 
     10% {
-        background: url(img/raymond.jpg);
+        background: url(img/nino.jpg);
         background-size: cover;
     }
 
@@ -458,7 +458,7 @@
     }
 
     100% {
-        background: url(img/laveugle.jpg);
+        background: url(img/raymond.jpg);
         background-size: cover;
     }
 }
