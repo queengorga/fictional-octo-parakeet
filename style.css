@@ -337,7 +337,7 @@
 /*Cast Section*/
 
 .cast {
-    height: 155vh;
+    height: 175vh;
     width: 100%;
     background-color: lightyellow;
     padding-bottom: -550px;
@@ -480,4 +480,12 @@
     -moz-border-radius: 4%;
     -ms-border-radius: 4%;
     -o-border-radius: 4%;
+}
+
+.quotes {
+    margin-top: 675px;
+    text-align: center;
+    font-family: 'Champion';
+    font-size: 35px;
+    color: darkgreen;
 }
