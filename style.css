@@ -337,10 +337,10 @@
 /*Cast Section*/
 
 .cast {
-    height: 135vh;
+    height: 155vh;
     width: 100%;
     background-color: lightyellow;
-    margin-bottom: -50px;
+    padding-bottom: -550px;
 }
 
 .characters img {
@@ -464,17 +464,17 @@
 }
 
 .characters {
-    margin-top: 50px;
-    margin-left: 365px;
-    height: 85%;
-    width: 50%;
+    margin-top: 35px;
+    margin-left: 420px;
+    height: 77%;
+    width: 45%;
     position: absolute;
     max-width: 875px;
     max-height: 800px;
     background: grey;
     box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    animation: crossfade 60s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
-    -webkit-animation: crossfade 60s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    -webkit-animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
     border-radius: 4%;
     -webkit-border-radius: 4%;
     -moz-border-radius: 4%;
