@@ -489,3 +489,129 @@
     font-size: 35px;
     color: darkgreen;
 }
+
+@keyframes quotesfade {
+    0% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    5% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    10% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    15% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    20% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    25% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    30% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    35% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    40% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    45% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    50% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    55% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    60% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    65% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    70% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    75% {
+        background: url(img/;
+        background-size: cover;
+    }
+
+    80% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    85% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    90% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    95% {
+        background: url(img/);
+        background-size: cover;
+    }
+
+    100% {
+        background: url(img/);
+        background-size: cover;
+    }
+}
+
+.quotes {
+    margin-top: 35px;
+    margin-left: 420px;
+    height: 77%;
+    width: 45%;
+    position: absolute;
+    max-width: 875px;
+    max-height: 800px;
+    background: grey;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation: quotesfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    -webkit-animation: quotesfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+    border-radius: 4%;
+    -webkit-border-radius: 4%;
+    -moz-border-radius: 4%;
+    -ms-border-radius: 4%;
+    -o-border-radius: 4%;
+}
