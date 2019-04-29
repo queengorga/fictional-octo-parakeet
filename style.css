@@ -540,8 +540,6 @@
     -o-transform: translate(1070%, -100%);
 }
 
-@charset "UTF-8";
-
 /*body {
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
@@ -677,9 +675,6 @@
 #testimonials ul li .testimonial-profile svg circle {
     -webkit-transform-origin: center;
     transform-origin: center;
-    cx: 24;
-    cy: 24;
-    r: 24;
     stroke-linecap: round;
     fill: none;
     stroke: #8D0800;
