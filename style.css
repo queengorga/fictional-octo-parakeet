@@ -215,10 +215,10 @@
     -moz-transform: translate(250%, -125%);
     -ms-transform: translate(250%, -125%);
     -o-transform: translate(250%, -125%);
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 /*Synopsis Section*/
