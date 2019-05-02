@@ -494,7 +494,7 @@
     transform: translate(-50%, -50%);
     width: 850px;
     height: 200px;
-    background: #eceff1;
+    background: ivory;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -524,8 +524,9 @@
     box-sizing: border-box;
     line-height: 1.5;
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 30px;
+    font-size: 38px;
     text-align: center;
+    color: #0a3a04;
 }
 
 #quotables ul li .quotables-body {
@@ -637,7 +638,7 @@
 }
 
 #quotables ul li .quotables-profile span {
-    vertical-align: top;
+    vertical-align: middle;
     font-weight: 500;
     color: #0a3a04;
 }
