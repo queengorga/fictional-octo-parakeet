@@ -870,3 +870,11 @@
         transform: rotate(0deg);
     }
 }
+
+/*Awards Section*/
+
+.awards {
+    height: 100vh;
+    width: 100vw;
+    background-image: url();
+}
