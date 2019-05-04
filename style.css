@@ -906,5 +906,40 @@
     background-position: center;
     height: 100vh;
     width: 55%;
-    margin: -27px; 
+}
+
+.title-awards {
+    font-family: 'Champion'!important;
+    font-size: 60px !important;
+    font-weight: lighter;
+    text-align: right !important;
+    color: white;
+    margin-top: -675px !important; 
+    margin-right: 270px !important;
+    margin-bottom: 30px !important;
+}
+
+.awards-text h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 40px;
+    text-align: left;
+    color: white;
+    margin-left: 900px;
+}
+
+.awards-text h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: white;
+    margin-left: 900px;
+}
+
+.awards-text h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: left;
+    color: white;
+    margin-left: 900px;
 }
