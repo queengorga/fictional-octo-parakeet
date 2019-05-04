@@ -750,7 +750,10 @@
     100% {
         -webkit-transform: translateX(0);
         transform: translateX(0);
-    }
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
 }
 
 @-webkit-keyframes quotables-progress-svg {
@@ -809,7 +812,10 @@
         stroke-dashoffset: 149.7964472;
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-    }
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
 
     49.1803278689% {
         stroke-dasharray: 41.887902;
@@ -824,7 +830,10 @@
         stroke-dashoffset: 0;
         -webkit-transform: rotate(2340deg);
         transform: rotate(2340deg);
-    }
+        -moz-transform: rotate(2340deg);
+        -ms-transform: rotate(2340deg);
+        -o-transform: rotate(2340deg);
+}
 
     99.1803278689%,
     100% {
@@ -833,7 +842,10 @@
         stroke-dashoffset: 149.7964472;
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-    }
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
 }
 
 @keyframes quotables-progress-circle {
@@ -844,7 +856,10 @@
         stroke-dashoffset: 149.7964472;
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-    }
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
 
     49.1803278689% {
         stroke-dasharray: 41.887902;
@@ -859,7 +874,10 @@
         stroke-dashoffset: 0;
         -webkit-transform: rotate(2340deg);
         transform: rotate(2340deg);
-    }
+        -moz-transform: rotate(2340deg);
+        -ms-transform: rotate(2340deg);
+        -o-transform: rotate(2340deg);
+}
 
     99.1803278689%,
     100% {
@@ -868,13 +886,25 @@
         stroke-dashoffset: 149.7964472;
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-    }
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
 }
 
 /*Awards Section*/
 
 .awards {
     height: 100vh;
-    width: 100vw;
-    background-image: url();
+    width: 100%;
+    background-color: #8d0800;
+}
+
+.awards-img {
+    background-image: url(img/awards.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 55%;
+    margin: -27px; 
 }
