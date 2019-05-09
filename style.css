@@ -915,7 +915,7 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 480%;
+    top: 680%;
     width: 25px;
     padding: 16px;
     margin-left: 30px;
@@ -950,4 +950,12 @@
 .next:hover {
     background-color: white;
     color: darkred;
+}
+
+.fashion-container h1 {
+    font-family: 'Champion';
+    font-size: 60px;
+    text-align: center; 
+    color: darkgreen; 
+    padding-top: 40px;
 }
