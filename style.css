@@ -906,7 +906,7 @@
 /*Fashion Section*/
 
 .fashion {
-    height: 100vh;
+    height: 120vh;
     width: 100%; 
     background-color: white; 
 }
@@ -915,9 +915,9 @@
 .next {
     cursor: pointer;
     position: absolute;
-    top: 680%;
+    top: 895%;
     width: 25px;
-    padding: 16px;
+    padding: 20px;
     margin-left: 30px;
     margin-right: 40px;
     color: white;
@@ -948,7 +948,7 @@
 
 .prev:hover,
 .next:hover {
-    background-color: white;
+    background-color: rgb(197, 125, 125);
     color: darkred;
 }
 
@@ -957,5 +957,82 @@
     font-size: 60px;
     text-align: center; 
     color: darkgreen; 
-    padding-top: 40px;
+    padding-top: 60px;
+}
+
+.heart {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: 10px 20px;
+    padding-top: -200px;
+    background-color: red;
+    border: 1px solid rgb(197, 125, 125);
+    display: inline-block;
+    border-radius: 20%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+.heart:before {
+    top: -15px;
+    left: 0;
+}
+
+.active,
+.heart:hover {
+    background-color: rgb(197, 125, 125);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 2s;
+    animation-name: fade;
+    animation-duration: 2s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.fashion-img {
+    margin-left: 425px;
 }
