@@ -906,7 +906,7 @@
 /*Fashion Section*/
 
 .fashion {
-    height: 120vh;
+    height: 125vh;
     width: 100%; 
     background-color: white; 
 }
@@ -1038,5 +1038,10 @@
 }
 
 .fashion-img {
-    margin-left: 425px;
+    margin-left: 300px;
+}
+
+.fashion-img img {
+    height: 650px;
+    width: 800px;
 }
