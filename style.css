@@ -960,12 +960,12 @@
     padding-top: 60px;
 }
 
-/* Decided to remove this part because I added too many slides
+
 .heart {
     cursor: pointer;
-    height: 35px;
-    width: 35px;
-    margin: 10px 20px;
+    height: 15px;
+    width: 15px;
+    margin: 10px 6px;
     padding-top: -200px;
     background-color: rgb(197, 125, 125);
     display: inline-block;
@@ -986,13 +986,13 @@
     content: "";
     background-color: rgb(197, 125, 125);
     border-radius: 50%;
-    height: 35px;
+    height: 15px;
+    width: 15px;
     position: absolute;
-    width: 35px;
 }
 
 .heart:before {
-    top: -18px;
+    top: -8px;
     left: 0;
 }
 
@@ -1010,7 +1010,7 @@
     -ms-transform: rotate(345deg);
     -o-transform: rotate(345deg);
 }
-*/ 
+ 
 
 .fade {
     -webkit-animation-name: fade;
