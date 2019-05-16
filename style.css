@@ -960,6 +960,7 @@
     padding-top: 60px;
 }
 
+/* Decided to remove this part because I added too many slides
 .heart {
     cursor: pointer;
     height: 35px;
@@ -1009,6 +1010,7 @@
     -ms-transform: rotate(345deg);
     -o-transform: rotate(345deg);
 }
+*/ 
 
 .fade {
     -webkit-animation-name: fade;
