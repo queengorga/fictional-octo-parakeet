@@ -996,9 +996,8 @@
     left: 0;
 }
 
-.active,
-.heart:hover {
-    border: 4px solid #8D0800;
+.active {
+    background-color: darkgreen;
     transform: rotate(345deg);
     transition: .5s ease-in-out;
     -webkit-transition: .5s ease-in-out;
@@ -1011,6 +1010,20 @@
     -o-transform: rotate(345deg);
 }
  
+.heart:hover {
+    text-shadow: 3px solid #8D0800;
+    margin-bottom: 2px;
+    transform: scale(1.5), rotate(160deg);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -webkit-transform: scale(1.5), rotate(160deg);
+    -moz-transform: scale(1.5), rotate(160deg);
+    -ms-transform: scale(1.5), rotate(160deg);
+    -o-transform: scale(1.5), rotate(160deg);
+}
 
 .fade {
     -webkit-animation-name: fade;
