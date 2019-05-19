@@ -42,7 +42,7 @@ function currentSlide(index) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < hearts.length; i++) {
-        hearts[i].className = diamonds[i].className.replace(" active", "");
+        hearts[i].className = hearts[i].className.replace(" active", "");
     }
     slides[index - 1].style.display = "block";
     hearts[index - 1].className += " active";
