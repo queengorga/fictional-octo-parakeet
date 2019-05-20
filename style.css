@@ -981,6 +981,16 @@
     -o-border-radius: 20%;
 }
 
+.fashion-img a,
+a:visited {
+    text-decoration: none;
+}
+
+.fashion-img h1 {
+    margin-top: -175px;
+    margin-bottom: 50px;
+}
+
 .heart:before,
 .heart:after {
     content: "";
