@@ -989,6 +989,7 @@ a:visited {
 .fashion-img h1 {
     margin-top: -175px;
     margin-bottom: 50px;
+    text-align: center; 
 }
 
 .heart:before,
