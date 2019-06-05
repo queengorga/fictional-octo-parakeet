@@ -1432,7 +1432,7 @@
 /*Cinematography Section*/
 
 .cinematography {
-    height: 125vh; 
+    height: 105vh; 
     width: 100%;
     background-color: darkred;
 }
@@ -1452,10 +1452,19 @@
 }
 
 .vid-box {
-    margin: 50px 0 0 75px;
+    margin: 5px 0 0 75px;
 }
 
 iframe {
     height: 450px;
     width: 650px;
+}
+
+.vid-box h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px; 
+    font-weight: lighter;
+    text-align: center; 
+    color: ivory;
+    margin: 25px;
 }
