@@ -439,7 +439,7 @@
         background: grey;
         box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
-        -webkit-animation:;
+        -webkit-animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
         border-radius: 4%;
         -webkit-border-radius: 4%;
         -moz-border-radius: 4%;
@@ -453,7 +453,7 @@
         position: absolute;
         top: 665%;
         left: 50%;
-        -webkit-transform:;
+        -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         width: 850px;
         height: 200px;
@@ -461,9 +461,9 @@
         border-radius: 15px;
         overflow: hidden;
         border: 2px solid #0a3a04;
-        -moz-transform:;
-        -ms-transform:;
-        -o-transform:;
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
 }
 
     #quotables ul {
@@ -559,7 +559,7 @@
         height: 48px;
         top: 0;
         left: 0;
-        -webkit-filter:;
+        -webkit-filter: drop-shadow(0 0 4px rgba(51, 165, 255, 0.5));
         filter: drop-shadow(0 0 4px rgba(51, 165, 255, 0.5));
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
@@ -913,7 +913,7 @@
     /*Fashion Section*/
 
     .fashion {
-        height: 125vh;
+        height: 110vh;
         width: 100%; 
         background-color: white; 
     }
@@ -922,10 +922,10 @@
     .next {
         cursor: pointer;
         position: absolute;
-        top: 895%;
+        top: 850%;
         width: 25px;
         padding: 20px;
-        margin-left: 30px;
+        margin-left: 40px;
         margin-right: 40px;
         color: white;
         text-align: center;
@@ -942,7 +942,7 @@
         -moz-transition: 0.6s ease;
         -ms-transition: 0.6s ease;
         -o-transition: 0.6s ease;
-    }
+}
 
     .next {
         right: 0;
@@ -961,32 +961,31 @@
 
     .fashion-container h1 {
         font-family: 'Champion';
-        font-size: 60px;
+        font-size: 50px;
         text-align: center; 
         color: darkgreen; 
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
 
     .heart {
         cursor: pointer;
-        height: 15px;
-        width: 15px;
-        margin: 10px 6px;
-        padding-top: -200px;
-        background-color: rgb(197, 125, 125);
+        height: 10px;
+        width: 10px;
+        margin: 2px 4px;
+        background-color: darkred;
         display: inline-block;
         border-radius: 20%;
         transform: rotate(-45deg);
-        -webkit-transform: rotate(-45deg);
-        -moz-transform: rotate(-45deg);
-        -ms-transform: rotate(-45deg);
-        -o-transform: rotate(-45deg);
+        -webkit-transform:;
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
         -webkit-border-radius: 20%;
         -moz-border-radius: 20%;
         -ms-border-radius: 20%;
         -o-border-radius: 20%;
-    }
+}
 
     .fashion-img a,
     a:visited {
@@ -995,27 +994,32 @@
 
     .fashion-img h1 {
         margin-top: -175px;
-        margin-bottom: 50px;
-        text-align: center; 
+        margin-bottom: 20px;
+        text-align: center;
+        text-shadow: 4px 2px 2px ivory; 
     }
 
     .heart:before,
     .heart:after {
         content: "";
-        background-color: rgb(197, 125, 125);
+        background-color: darkred;
         border-radius: 50%;
-        height: 15px;
-        width: 15px;
+        height: 10px;
+        width: 10px;
         position: absolute;
-    }
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
+}
 
     .heart:before {
-        top: -8px;
+        top: -5px;
         left: 0;
     }
 
     .active {
-        background-color: darkgreen;
+        border: 6px solid yellow;
         transform: rotate(345deg);
         transition: .5s ease-in-out;
         -webkit-transition: .5s ease-in-out;
@@ -1026,7 +1030,7 @@
         -moz-transform: rotate(345deg);
         -ms-transform: rotate(345deg);
         -o-transform: rotate(345deg);
-    }
+}
     
     .heart:hover {
         text-shadow: 3px solid #8D0800;
@@ -1041,7 +1045,7 @@
         -moz-transform: scale(1.5), rotate(160deg);
         -ms-transform: scale(1.5), rotate(160deg);
         -o-transform: scale(1.5), rotate(160deg);
-    }
+}
 
     .fade {
         -webkit-animation-name: fade;
@@ -1072,11 +1076,12 @@
 
     .fashion-img {
         margin-left: 300px;
+        margin-top: -12px;
     }
 
     .fashion-img img {
-        height: 650px;
-        width: 800px;
+        height: 600px;
+        width: 850px;
     }
 
     /*Gallery Section*/
