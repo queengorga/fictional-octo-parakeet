@@ -1468,3 +1468,45 @@ iframe {
     color: ivory;
     margin: 25px;
 }
+
+/*Download Section*/
+
+.download {
+    height: 100vh; 
+    width: 100%;
+    background-color: ivory;
+}
+
+.download-container h1 {
+    font-family: 'Champion';
+    font-size: 50px;
+    text-align: center;
+    color: darkgreen;
+    margin: 50px;
+}
+
+.download-block {
+    display: inline-flex;
+}
+
+.download-block img {
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkgreen;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.block-download img {
+    height: 50px;
+    width: 100px;
+    border: none !important;
+    border-radius: none !important;
+    -webkit-border-radius: none !important;
+    -moz-border-radius: none !important;
+    -ms-border-radius: none !important;
+    -o-border-radius: none !important;
+}
