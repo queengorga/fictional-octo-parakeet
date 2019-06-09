@@ -302,7 +302,7 @@
     /*Cast Section*/
 
     .cast {
-        height: 170vh;
+        height: 150vh;
         width: 100%;
         background-color: lightyellow;
         padding-bottom: -550px;
@@ -315,7 +315,7 @@
 
     .cast h1 {
         font-family: 'Champion';
-        font-size: 80px; 
+        font-size: 50px; 
         color: darkgreen;
         text-align: center;
         padding-top: 50px; 
@@ -439,23 +439,21 @@
         background: grey;
         box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
-        -webkit-animation: crossfade 65s cubic-bezier(0.175, 0.885, 0.32, 1.275) infinite;
+        -webkit-animation:;
         border-radius: 4%;
         -webkit-border-radius: 4%;
         -moz-border-radius: 4%;
         -ms-border-radius: 4%;
         -o-border-radius: 4%;
-    }
-
-
+}
 
     /*Quotable Quotes Section*/
 
     #quotables {
         position: absolute;
-        top: 715%;
+        top: 665%;
         left: 50%;
-        -webkit-transform: translate(-50%, -50%);
+        -webkit-transform:;
         transform: translate(-50%, -50%);
         width: 850px;
         height: 200px;
@@ -463,7 +461,10 @@
         border-radius: 15px;
         overflow: hidden;
         border: 2px solid #0a3a04;
-    }
+        -moz-transform:;
+        -ms-transform:;
+        -o-transform:;
+}
 
     #quotables ul {
         display: flex;
@@ -558,7 +559,7 @@
         height: 48px;
         top: 0;
         left: 0;
-        -webkit-filter: drop-shadow(0 0 4px rgba(51, 165, 255, 0.5));
+        -webkit-filter:;
         filter: drop-shadow(0 0 4px rgba(51, 165, 255, 0.5));
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
@@ -567,7 +568,7 @@
         -webkit-animation: quotables-progress-svg 15.25s infinite;
         animation: quotables-progress-svg 15.25s infinite;
         pointer-events: none;
-    }
+}
 
     #quotables ul li .quotables-profile svg circle {
         -webkit-transform-origin: center;
