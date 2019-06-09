@@ -141,7 +141,7 @@
 
     /*Trailer Section*/
     .trailer {
-        height: 175vh;
+        height: 150vh;
         background-color: #fff0bd;
     }
 
@@ -159,19 +159,21 @@
     }
 
     #trailer-frame {
-        height: 850px;
+        height: 700px;
         width: 1500px;
         margin-left: -300px;
-        margin-top: -250px;
+        margin-top: -200px;
     }
 
     #french {
-        transform: translate(34%, 100%);
-        -webkit-transform: translate(34%, 100%);
-        -moz-transform: translate(34%, 100%);
-        -ms-transform: translate(34%, 100%);
-        -o-transform: translate(34%, 100%);
-    }
+        height: 300px;
+        width: 427px;
+        transform: translate(55%, 102%);
+        -webkit-transform: translate(55%, 102%);
+        -moz-transform: translate(55%, 102%);
+        -ms-transform: translate(55%, 102%);
+        -o-transform: translate(55%, 102%);
+}
 
     .trailer-text p {
         font-family: 'Champion';
@@ -250,26 +252,29 @@
     /*Featured Clips Section*/
 
     .feature-slider {
-        height: 160vh;
+        height: 150vh;
         width: 100%;
-        background-color: #edf5c6;
+        background-color: darkred;
     }
 
     .feature-slider h1 {
         font-family: 'Champion';
-        font-size: 70px;
+        font-size: 50px;
+        font-weight: lighter;
         text-align: center; 
-        color: #0a3a04;
+        color: ivory;
         padding-top: 50px;
     }
 
     .text-block iframe {
-        transform: translate(10%,5%);
-        -webkit-transform: translate(10%,5%);
-        -moz-transform: translate(10%,5%);
-        -ms-transform: translate(10%,5%);
-        -o-transform: translate(10%,5%);
-    }
+        height: 650px;
+        width: 1250px;
+        transform: translate(11%,5%);
+        -webkit-transform: translate(11%,5%);
+        -moz-transform: translate(11%,5%);
+        -ms-transform: translate(11%,5%);
+        -o-transform: translate(11%,5%);
+}
 
     .thumbnail img {
         height: 155px;
@@ -279,18 +284,19 @@
     .thumbnail {
         display: inline-block;
         margin: 50px 6px;
-        transform: translate(62%,5%);
-        -webkit-transform: translate(62%,5%);
-        -moz-transform: translate(62%,5%);
-        -ms-transform: translate(62%,5%);
-        -o-transform: translate(62%,5%);
-    }
+        transform: translate(67%,5%);
+        -webkit-transform: translate(67%,5%);
+        -moz-transform: translate(67%,5%);
+        -ms-transform: translate(67%,5%);
+        -o-transform: translate(67%,5%);
+}
 
     .thumbnail p {
         text-align: center; 
         font-family: 'Pathway Gothic One', sans-serif; 
         font-size: 22px;
         margin-top: 10px;
+        color: ivory;   
     }
 
     /*Cast Section*/
