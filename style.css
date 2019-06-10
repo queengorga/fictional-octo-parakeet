@@ -977,10 +977,10 @@
         display: inline-block;
         border-radius: 20%;
         transform: rotate(-45deg);
-        -webkit-transform:;
-        -moz-transform:;
-        -ms-transform:;
-        -o-transform:;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
         -webkit-border-radius: 20%;
         -moz-border-radius: 20%;
         -ms-border-radius: 20%;
@@ -1007,10 +1007,10 @@
         height: 10px;
         width: 10px;
         position: absolute;
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
 }
 
     .heart:before {
