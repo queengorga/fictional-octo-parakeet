@@ -1542,3 +1542,32 @@ iframe {
     font-weight: lighter;
     margin: 5px 25px;
 }
+
+/*Footer Section*/
+
+.footer-credits {
+    height: 50vh;
+    width: 100%;
+    background-color: ivory;
+}
+
+.credits-row ul {
+    display: inline-flex;
+    margin-left: 215px;
+    list-style: none; 
+}
+.credits-row li {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.credits-row h3 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 11px 4px;
+    text-transform: uppercase;
+}
