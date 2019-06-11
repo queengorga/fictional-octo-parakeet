@@ -1549,16 +1549,18 @@ iframe {
     height: 50vh;
     width: 100%;
     background-color: ivory;
+    text-align: center;
 }
 
 .credits-row ul {
     display: inline-flex;
-    margin-left: 215px;
+    margin-left: 25px;
     list-style: none; 
 }
+
 .credits-row li {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: lighter;
     margin: 4px;
     text-transform: uppercase;
@@ -1566,8 +1568,8 @@ iframe {
 
 .credits-row h3 {
     font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bolder;
-    margin: 11px 4px;
+    margin: 10px 4px;
     text-transform: uppercase;
 }
