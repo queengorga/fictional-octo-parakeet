@@ -1550,16 +1550,22 @@ iframe {
 /*Footer Section*/
 
 .footer-credits {
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background-color: ivory;
     text-align: center;
 }
 
+.footer-container img {
+    height: 100px; 
+    width: 250px;
+    margin-bottom: 30px;
+}
+
 .credits-row ul {
     display: inline-flex;
     text-align: center; 
-    list-style: none; 
+    list-style: none;
 }
 
 .credits-row li {
