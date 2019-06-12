@@ -212,16 +212,16 @@
         height: 300px;
         width: 350px;
         border-radius: 50%;
-        transform: translate(250%, -125%);
-        -webkit-transform: translate(250%, -125%);
-        -moz-transform: translate(250%, -125%);
-        -ms-transform: translate(250%, -125%);
-        -o-transform: translate(250%, -125%);
+        transform: translate(250%, -115%);
+        -webkit-transform: translate(250%, -115%);
+        -moz-transform: translate(250%, -115%);
+        -ms-transform: translate(250%, -115%);
+        -o-transform: translate(250%, -115%);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
         -o-border-radius: 50%;
-    }
+}
 
     /*Synopsis Section*/
     .synopsis {
