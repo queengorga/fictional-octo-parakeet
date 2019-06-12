@@ -181,42 +181,42 @@
         float: right;
         text-align: center;
         color: #8D0800;
-        transform: translate(-15%,-275%);
-        -webkit-transform: translate(-15%,-275%);
-        -moz-transform: translate(-15%,-275%);
-        -ms-transform: translate(-15%,-275%);
-        -o-transform: translate(-15%,-275%);
+        transform: translate(-15%,-255%);
+        -webkit-transform: translate(-15%,-255%);
+        -moz-transform: translate(-15%,-255%);
+        -ms-transform: translate(-15%,-255%);
+        -o-transform: translate(-15%,-255%);
 }
 
     #open {
         height: 50px;
         width: 50px;
-        transform: translate(1700%, -1675%);
-        -webkit-transform: translate(1700%, -1675%);
-        -moz-transform: translate(1700%, -1675%);
-        -ms-transform: translate(1700%, -1675%);
-        -o-transform: translate(1700%, -1675%);
+        transform: translate(1700%, -1575%);
+        -webkit-transform: translate(1700%, -1575%);
+        -moz-transform: translate(1700%, -1575%);
+        -ms-transform: translate(1700%, -1575%);
+        -o-transform: translate(1700%, -1575%);
 }
 
     #close {
         height: 50px;
         width: 50px;
-        transform: translate(2675%, -1400%);
-        -webkit-transform: translate(2675%, -1400%);
-        -moz-transform: translate(2675%, -1400%);
-        -ms-transform: translate(2675%, -1400%);
-        -o-transform: translate(2675%, -1400%);
+        transform: translate(2675%, -1300%);
+        -webkit-transform: translate(2675%, -1300%);
+        -moz-transform: translate(2675%, -1300%);
+        -ms-transform: translate(2675%, -1300%);
+        -o-transform: translate(2675%, -1300%);
 }
 
     .creme {
         height: 300px;
         width: 350px;
         border-radius: 50%;
-        transform: translate(250%, -115%);
-        -webkit-transform: translate(250%, -115%);
-        -moz-transform: translate(250%, -115%);
-        -ms-transform: translate(250%, -115%);
-        -o-transform: translate(250%, -115%);
+        transform: translate(250%, -105%);
+        -webkit-transform: translate(250%, -105%);
+        -moz-transform: translate(250%, -105%);
+        -ms-transform: translate(250%, -105%);
+        -o-transform: translate(250%, -105%);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
