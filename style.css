@@ -1485,6 +1485,46 @@ iframe {
     margin: 25px;
 }
 
+/*Production Section*/
+
+.production {
+    height: 105vh;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+.production h1 {
+    font-family: 'Champion';
+    font-size: 50px;
+    font-weight: lighter;
+    color: ivory;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.production-container {
+    display: inline-flex;
+    margin: 25px auto;
+}
+
+.vid-production {
+    margin: 5px 0 0 75px;
+}
+
+.vid-production iframe {
+    height: 450px;
+    width: 650px;
+}
+
+.vid-production h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    color: ivory;
+    margin: 25px;
+}
+
 /*Download Section*/
 
 .download {
