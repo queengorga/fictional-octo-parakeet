@@ -1471,7 +1471,7 @@
     margin: 5px 0 0 75px;
 }
 
-iframe {
+.vid-box iframe {
     height: 450px;
     width: 650px;
 }
