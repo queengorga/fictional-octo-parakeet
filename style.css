@@ -28,6 +28,7 @@
         margin-top: -10px;
         font-weight: lighter;
         padding-top: 20px;
+        padding-left: 12rem;
     }
 
     .logo h2 {
@@ -37,6 +38,7 @@
         font-weight: lighter;
         margin-left: 700px;
         margin-top: -20px;
+        padding-left: 12rem;
     }
 
     .logo h3 {
@@ -46,6 +48,7 @@
         font-weight: lighter;
         margin-left: 800px;
         margin-top: -60px;
+        padding-left: 12rem;
     }
 
     #big {
@@ -88,11 +91,11 @@
 
     .navbar ul {
         text-align: center;
-        transform: translate(0%, -1450%);
-        -webkit-transform: translate(0%, -1450%);
-        -moz-transform: translate(0%, -1450%);
-        -ms-transform: translate(0%, -1450%);
-        -o-transform: translate(0%, -1450%);
+        transform: translate(0%, -1950%);
+        -webkit-transform: translate(0%, -1950%);
+        -moz-transform: translate(0%, -1950%);
+        -ms-transform: translate(0%, -1950%);
+        -o-transform: translate(0%, -1950%);
 }
 
     .navbar li {
@@ -130,18 +133,19 @@
     }
 
     .navbar img {
-        transform: translate(143%, -60%);
-        -webkit-transform: translate(143%, -60%);
-        -moz-transform: translate(143%, -60%);
-        -ms-transform: translate(143%, -60%);
-        -o-transform: translate(143%, -60%);
+        transform: translate(200%, -75%);
+        -webkit-transform: translate(200%, -75%);
+        -moz-transform: translate(200%, -75%);
+        -ms-transform: translate(200%, -75%);
+        -o-transform: translate(200%, -75%);
         height: 900px;
         width: 625px;
-    }
+}
 
     /*Trailer Section*/
     .trailer {
-        height: 150vh;
+        height: 145vh;
+        width: 100%;
         background-color: #fff0bd;
     }
 
@@ -159,20 +163,19 @@
     }
 
     #trailer-frame {
-        height: 700px;
+        height: 850px;
         width: 1500px;
-        margin-left: -300px;
-        margin-top: -200px;
+        margin-top: -150px;
     }
 
     #french {
-        height: 300px;
-        width: 427px;
-        transform: translate(55%, 102%);
-        -webkit-transform: translate(55%, 102%);
-        -moz-transform: translate(55%, 102%);
-        -ms-transform: translate(55%, 102%);
-        -o-transform: translate(55%, 102%);
+        height: 355px;
+        width:525px;
+        transform: translate(92%, 130%);
+        -webkit-transform: translate(92%, 130%);
+        -moz-transform: translate(92%, 130%);
+        -ms-transform: translate(92%, 130%);
+        -o-transform: translate(92%, 130%);
 }
 
     .trailer-text p {
@@ -181,42 +184,42 @@
         float: right;
         text-align: center;
         color: #8D0800;
-        transform: translate(-15%,-255%);
-        -webkit-transform: translate(-15%,-255%);
-        -moz-transform: translate(-15%,-255%);
-        -ms-transform: translate(-15%,-255%);
-        -o-transform: translate(-15%,-255%);
+        transform: translate(-20%,-375%);
+        -webkit-transform: translate(-20%,-375%);
+        -moz-transform: translate(-20%,-375%);
+        -ms-transform: translate(-20%,-375%);
+        -o-transform: translate(-20%,-375%);
 }
 
     #open {
         height: 50px;
         width: 50px;
-        transform: translate(1700%, -1575%);
-        -webkit-transform: translate(1700%, -1575%);
-        -moz-transform: translate(1700%, -1575%);
-        -ms-transform: translate(1700%, -1575%);
-        -o-transform: translate(1700%, -1575%);
+        transform: translate(2475%, -2375%);
+        -webkit-transform: translate(2475%, -2375%);
+        -moz-transform: translate(2475%, -2375%);
+        -ms-transform: translate(2475%, -2375%);
+        -o-transform: translate(2475%, -2375%);
 }
 
     #close {
         height: 50px;
         width: 50px;
-        transform: translate(2675%, -1300%);
-        -webkit-transform: translate(2675%, -1300%);
-        -moz-transform: translate(2675%, -1300%);
-        -ms-transform: translate(2675%, -1300%);
-        -o-transform: translate(2675%, -1300%);
+        transform: translate(3300%, -1825%);
+        -webkit-transform: translate(3300%, -1825%);
+        -moz-transform: translate(3300%, -1825%);
+        -ms-transform: translate(3300%, -1825%);
+        -o-transform: translate(3300%, -1825%);
 }
 
     .creme {
-        height: 300px;
-        width: 350px;
+        height: 400px;
+        width: 450px;
         border-radius: 50%;
-        transform: translate(250%, -105%);
-        -webkit-transform: translate(250%, -105%);
-        -moz-transform: translate(250%, -105%);
-        -ms-transform: translate(250%, -105%);
-        -o-transform: translate(250%, -105%);
+        transform: translate(250%, -125%);
+        -webkit-transform: translate(250%, -125%);
+        -moz-transform: translate(250%, -125%);
+        -ms-transform: translate(250%, -125%);
+        -o-transform: translate(250%, -125%);
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
@@ -225,14 +228,15 @@
 
     /*Synopsis Section*/
     .synopsis {
-        height: 145vh;
+        height: 130vh;
         width: 100%;
         background-image: url(img/eif.jpg);
         background-size: cover;
     }
 
     .synopsis-container {
-        margin-left: 850px;
+        padding-top:100px;
+        margin-left: 1100px;
     }
 
     .synopsis-container h1 {
@@ -244,7 +248,7 @@
 
     .synopsis-container p {
         font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 22px;
+        font-size: 25px;
         line-height: 30px;
         padding-top: 30px;
     }
@@ -252,7 +256,7 @@
     /*Featured Clips Section*/
 
     .feature-slider {
-        height: 150vh;
+        height: 120vh;
         width: 100%;
         background-color: darkred;
     }
@@ -269,11 +273,11 @@
     .text-block iframe {
         height: 650px;
         width: 1250px;
-        transform: translate(11%,5%);
-        -webkit-transform: translate(11%,5%);
-        -moz-transform: translate(11%,5%);
-        -ms-transform: translate(11%,5%);
-        -o-transform: translate(11%,5%);
+        transform: translate(25%,5%);
+        -webkit-transform: translate(25%,5%);
+        -moz-transform: translate(25%,5%);
+        -ms-transform: translate(25%,5%);
+        -o-transform: translate(25%,5%);
 }
 
     .thumbnail img {
@@ -284,11 +288,11 @@
     .thumbnail {
         display: inline-block;
         margin: 50px 6px;
-        transform: translate(67%,5%);
-        -webkit-transform: translate(67%,5%);
-        -moz-transform: translate(67%,5%);
-        -ms-transform: translate(67%,5%);
-        -o-transform: translate(67%,5%);
+        transform: translate(157%,5%);
+        -webkit-transform: translate(157%,5%);
+        -moz-transform: translate(157%,5%);
+        -ms-transform: translate(157%,5%);
+        -o-transform: translate(157%,5%);
 }
 
     .thumbnail p {
@@ -302,7 +306,7 @@
     /*Cast Section*/
 
     .cast {
-        height: 150vh;
+        height: 135vh;
         width: 100%;
         background-color: lightyellow;
         padding-bottom: -550px;
@@ -430,7 +434,7 @@
 
     .characters {
         margin-top: 35px;
-        margin-left: 420px;
+        margin-left: 520px;
         height: 77%;
         width: 45%;
         position: absolute;
@@ -451,7 +455,7 @@
 
     #quotables {
         position: absolute;
-        top: 665%;
+        top: 605%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
@@ -880,40 +884,40 @@
         font-weight: lighter;
         text-align: right !important;
         color: white;
-        margin-top: -675px !important; 
-        margin-right: 270px !important;
-        margin-bottom: 30px !important;
+        margin-top: -55rem !important; 
+        margin-right: 21rem !important;
+        margin-bottom: 3rem !important;
     }
 
     .awards-text h1 {
         font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 40px;
-        text-align: left;
+        font-size: 2.5rem;
+        text-align: right;
         color: white;
-        margin-left: 900px;
+        margin-right: 10rem;
     }
 
     .awards-text h2 {
         font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 35px;
-        text-align: left;
+        font-size: 2rem;
+        text-align: right;
         color: white;
-        margin-left: 900px;
+        margin-right: 10rem;
     }
 
     .awards-text h3 {
         font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 25px;
+        font-size: 1.75rem;
         font-weight: lighter;
-        text-align: left;
+        text-align: right;
         color: white;
-        margin-left: 900px;
+        margin-right: 10rem;
     }
 
     /*Fashion Section*/
 
     .fashion {
-        height: 110vh;
+        height: 100vh;
         width: 100%; 
         background-color: white; 
     }
@@ -922,7 +926,7 @@
     .next {
         cursor: pointer;
         position: absolute;
-        top: 850%;
+        top: 770%;
         width: 25px;
         padding: 20px;
         margin-left: 40px;
@@ -970,9 +974,9 @@
 
     .heart {
         cursor: pointer;
-        height: 10px;
-        width: 10px;
-        margin: 2px 4px;
+        height: 15px;
+        width: 15px;
+        margin: 50px 6px;
         background-color: darkred;
         display: inline-block;
         border-radius: 20%;
@@ -1004,8 +1008,8 @@
         content: "";
         background-color: darkred;
         border-radius: 50%;
-        height: 10px;
-        width: 10px;
+        height: 15px;
+        width: 15px;
         position: absolute;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
@@ -1014,7 +1018,7 @@
 }
 
     .heart:before {
-        top: -5px;
+        top: -8px;
         left: 0;
     }
 
@@ -1075,18 +1079,18 @@
     }
 
     .fashion-img {
-        margin-left: 300px;
+        margin-left: 500px;
         margin-top: -12px;
     }
 
     .fashion-img img {
-        height: 600px;
+        height: 700px;
         width: 850px;
     }
 
     /*Gallery Section*/
     .gallery {
-        height: 115vh;
+        height: 100vh;
         width: 100%;
         background-color: #edf5c6;
     }
@@ -1109,7 +1113,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        height: 175%;
+        height: 200%;
         width: 200%;
         min-height: 0;
     }
@@ -1153,7 +1157,7 @@
 
     .video-gallery label {
         color: #000000;
-        font-size: 1.25em;
+        font-size: 1.55em;
         font-weight: 400;
         font-family: 'Pathway Gothic One';
         grid-column-start: 3;
@@ -1448,7 +1452,7 @@
 /*Cinematography Section*/
 
 .cinematography {
-    height: 105vh; 
+    height: 85vh; 
     width: 100%;
     background-color: darkred;
 }
@@ -1464,7 +1468,7 @@
 
 .cinematography-container {
     display: inline-flex;
-    margin: 25px auto;
+    margin: 25px 175px;
 }
 
 .vid-box {
@@ -1488,7 +1492,7 @@
 /*Production Section*/
 
 .production {
-    height: 105vh;
+    height: 85vh;
     width: 100%;
     background-color: darkgreen;
 }
@@ -1504,7 +1508,7 @@
 
 .production-container {
     display: inline-flex;
-    margin: 25px auto;
+    margin: 25px 175px;
 }
 
 .vid-production {
@@ -1528,15 +1532,15 @@
 /*Download Section*/
 
 .download {
-    height: 95vh; 
+    height: 75vh; 
     width: 100%;
     background-color: ivory;
 }
 
 .download-container {
     display: inline-grid;
-    margin: 10px;
-    padding-left: 80px;
+    margin: 5px;
+    padding-left: 225px;
 }
 
 .download h1 {
@@ -1590,7 +1594,7 @@
 /*Footer Section*/
 
 .footer-credits {
-    height: 70vh;
+    height: 50vh;
     width: 100%;
     background-color: ivory;
     text-align: center;
