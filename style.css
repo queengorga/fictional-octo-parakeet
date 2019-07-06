@@ -91,17 +91,17 @@
 
     .navbar ul {
         text-align: center;
-        transform: translate(0%, -1950%);
-        -webkit-transform: translate(0%, -1950%);
-        -moz-transform: translate(0%, -1950%);
-        -ms-transform: translate(0%, -1950%);
-        -o-transform: translate(0%, -1950%);
+        transform: translate(0%, -1650%);
+        -webkit-transform: translate(0%, -1650%);
+        -moz-transform: translate(0%, -1650%);
+        -ms-transform: translate(0%, -1650%);
+        -o-transform: translate(0%, -1650%);
 }
 
     .navbar li {
         display: inline;
         font-family: 'Pathway Gothic One', sans-serif;
-        font-size: 34px;
+        font-size: 40px;
         color: white;
         padding: 10px;
         cursor: pointer;
